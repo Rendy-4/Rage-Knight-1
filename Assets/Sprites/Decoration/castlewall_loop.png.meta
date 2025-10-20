@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ee4a1250ac095a04c95c1f32841c613a
+guid: 9e59a09baaa723a40a5cff87e438854a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4294477546359928004
-    second: castlewall pinggir kiri_0
+      213: 8694761624912703626
+    second: castlewall_loop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,11 +113,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castlewall pinggir kiri_0
+      name: castlewall_loop_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 448
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -128,212 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c4bca6439c099b30800000000000000
-      internalID: 4294477546359928004
+      spriteID: a80be9b81aff9a870800000000000000
+      internalID: 8694761624912703626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07b942672e3b0a14f93bec40ed4ed144
-      internalID: 46154095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c2dad0fce71dd74d8e345f131671de7
-      internalID: -434968837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63659c6cff3e30f44a7042c89e7dbe4c
-      internalID: -1283538884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06a302daaae6a2f439a71f8933545063
-      internalID: 1012791470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53f225966d75d8049b98b973fac4e8d4
-      internalID: 175133237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_6
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9915faff10d86f844934fdc85f7bb90a
-      internalID: 1467646357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3419d20f9c0bc2438374ccf3e47cd1d
-      internalID: 1723354378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_8
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21a0e36e0321e4f40b925f5c8f890328
-      internalID: 1501405122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b15ff155812fe249b5ad40f261558e3
-      internalID: -1912081328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_10
+      name: castlewall_loop_1
       rect:
         serializedVersion: 2
         x: 64
@@ -348,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2477892b2b4c1ad4d9cd3fbb843ffe7a
-      internalID: -998308711
+      spriteID: 0e70d78b2620d394f908fe2896f80c10
+      internalID: -1107769816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_11
+      name: castlewall_loop_2
       rect:
         serializedVersion: 2
         x: 128
@@ -370,36 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f423c535ac35a34ba66e6da8118dccf
-      internalID: 1831647671
+      spriteID: 5a31e8d882d1a5a4f8a42d02c2e2aa87
+      internalID: 1002503134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_12
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ea4174aaf13fee4fb3963deb6285572
-      internalID: -704159035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_13
+      name: castlewall_loop_3
       rect:
         serializedVersion: 2
         x: 256
@@ -414,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e6219aeabec4a144b6a5e8349a50699
-      internalID: -70454546
+      spriteID: 9c183a433614fa5478cd68f50e84f288
+      internalID: 1964659429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_14
+      name: castlewall_loop_4
       rect:
         serializedVersion: 2
         x: 320
@@ -436,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 963f039e6787b1a4f80771cbd382b2bb
-      internalID: 344636565
+      spriteID: 602e1f90fc29f044b895779de6131a46
+      internalID: -324523360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_15
+      name: castlewall_loop_5
       rect:
         serializedVersion: 2
         x: 384
@@ -458,80 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4070d0eb6e957f748aa194f6728a5e47
-      internalID: -636094915
+      spriteID: cb569ba475067b14cb8267d482ee5c93
+      internalID: -1431431313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_16
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c59a5cf3a88d474fa33b5a259b43645
-      internalID: 358443524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_17
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fe59d3920ec07a48b01cabd1bec21af
-      internalID: 1757451666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_18
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6b3299939012f04baf2c7199c4b3279
-      internalID: 851926487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_19
+      name: castlewall_loop_6
       rect:
         serializedVersion: 2
         x: 0
@@ -546,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 916e02ef825ec404a8724d7eb7574a12
-      internalID: 184887004
+      spriteID: dc619c38ecf73be469b7f83288d41fac
+      internalID: 484315905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_20
+      name: castlewall_loop_7
       rect:
         serializedVersion: 2
         x: 64
@@ -568,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58d31c9f22bb73d4783f7e8d8788b0a0
-      internalID: 16856696
+      spriteID: 0fb5bfefc5daeb94fb3491e3aba2cb43
+      internalID: 202329821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_21
+      name: castlewall_loop_8
       rect:
         serializedVersion: 2
         x: 128
@@ -590,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1297ad4c408074aabb904600c7afbd
-      internalID: -323246914
+      spriteID: dbe51fa3b91ac234bb829046732f9680
+      internalID: -1111881702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_22
+      name: castlewall_loop_9
       rect:
         serializedVersion: 2
         x: 192
@@ -612,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef54b8a471ec2e4f8a76f578b2958ba
-      internalID: -149386366
+      spriteID: b93c0d6306725fa48828ad01e759db7e
+      internalID: 1429980929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_23
+      name: castlewall_loop_10
       rect:
         serializedVersion: 2
         x: 256
@@ -634,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15c25f0f4b298674ab229ca869cb76e9
-      internalID: 404822133
+      spriteID: d1ad821472c5091439ff5ea8ca874e0f
+      internalID: -1713902595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_24
+      name: castlewall_loop_11
       rect:
         serializedVersion: 2
         x: 320
@@ -656,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e2ad7800d7e3fa408d469ed503bdc01
-      internalID: -1626182731
+      spriteID: ed2a3f93a75d01d41971069c7edad3e1
+      internalID: 191085470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_25
+      name: castlewall_loop_12
       rect:
         serializedVersion: 2
         x: 384
@@ -678,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee383b0f619c434baa36d366576758d
-      internalID: -1484380521
+      spriteID: 154eda18641ccd34ea9195d608e235bb
+      internalID: -1711418499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_26
+      name: castlewall_loop_13
       rect:
         serializedVersion: 2
         x: 448
@@ -700,58 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e5ba46f37c9f84f8dddc95830bf9b2
-      internalID: -1217326620
+      spriteID: b3babad665d5bdd40a4e1d10df2bdaec
+      internalID: 1914174156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_27
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6410fa1918c067545b2534e97bc9e07b
-      internalID: 1122014153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_28
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84a7493473707774da46b61d8ec45cbe
-      internalID: -1880478514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_29
+      name: castlewall_loop_14
       rect:
         serializedVersion: 2
         x: 0
@@ -766,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb776dd33f5b6d439e80ddc3eb248b0
-      internalID: 561721775
+      spriteID: fd29fa09d933afb47a81370394be1364
+      internalID: 22644436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_30
+      name: castlewall_loop_15
       rect:
         serializedVersion: 2
         x: 64
@@ -788,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8387ec11f665f9949b0ac010a074ec25
-      internalID: -1770970944
+      spriteID: f4550883a39a29740ba11fc100032c7e
+      internalID: -1952174639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_31
+      name: castlewall_loop_16
       rect:
         serializedVersion: 2
         x: 128
@@ -810,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 626dc8f83d0904544844923fff6f8597
-      internalID: -2129285114
+      spriteID: a9c8347f89358b446975e70f6312badb
+      internalID: 895746930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_32
+      name: castlewall_loop_17
       rect:
         serializedVersion: 2
         x: 192
@@ -832,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822d3e5de7ed02a48bc8ea1594518b95
-      internalID: 56562119
+      spriteID: 337dc37175531e24699c158081236f07
+      internalID: 853073094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_33
+      name: castlewall_loop_18
       rect:
         serializedVersion: 2
         x: 256
@@ -854,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b439327cb22df24d96ce45de2e22591
-      internalID: 640760254
+      spriteID: 9533474037f55da48b4d548beff6e1cf
+      internalID: 106396528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_34
+      name: castlewall_loop_19
       rect:
         serializedVersion: 2
         x: 320
@@ -876,14 +546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fe9e99024bdcd7419d1c10c498a8a21
-      internalID: -577149557
+      spriteID: 8173894c3556b66428117b869344626c
+      internalID: 1391681584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_35
+      name: castlewall_loop_20
       rect:
         serializedVersion: 2
         x: 384
@@ -898,14 +568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7b9351b590e075489de9b7e3890f652
-      internalID: -1014002822
+      spriteID: 8001f7f26e45bc94ba4d56f5044320ab
+      internalID: -1617561799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_36
+      name: castlewall_loop_21
       rect:
         serializedVersion: 2
         x: 448
@@ -920,58 +590,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f5b012d9a7a3404c8aac36f3bf35d73
-      internalID: -500665540
+      spriteID: ae1a8728be4212044b5d1f2ad66d858f
+      internalID: 1931933600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_37
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43c1b8aee6185d2478d8f54b8b1b8ffc
-      internalID: 1706374457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_38
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6770f1af2c47ab24dad5c011ca350a17
-      internalID: -1449782527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_39
+      name: castlewall_loop_22
       rect:
         serializedVersion: 2
         x: 0
@@ -986,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed92d535b757ed4fbdb62067b3900df
-      internalID: -40051491
+      spriteID: 4211010da4b791f4692b49812909a369
+      internalID: 934449602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_40
+      name: castlewall_loop_23
       rect:
         serializedVersion: 2
         x: 64
@@ -1008,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fd77806a72c86043bf918546ded1958
-      internalID: -1987396467
+      spriteID: 22fc5cd325c060c4490cc0ed49cc9f62
+      internalID: 2032054328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_41
+      name: castlewall_loop_24
       rect:
         serializedVersion: 2
         x: 128
@@ -1030,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565048b8d94b3c846a7455325d2860cc
-      internalID: 1501002359
+      spriteID: f4e6b07400d3f7c469c7e65c2431a5c8
+      internalID: 1193789759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_42
+      name: castlewall_loop_25
       rect:
         serializedVersion: 2
         x: 192
@@ -1052,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7664e7c99d396594184fd94b220ef3db
-      internalID: -1894345827
+      spriteID: 5456583beb5d97649b0b22099e5fff07
+      internalID: 960248555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_43
+      name: castlewall_loop_26
       rect:
         serializedVersion: 2
         x: 256
@@ -1074,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 018e6e3b58c607547a3d954d1f9465d0
-      internalID: 1860950799
+      spriteID: 73942ad0d4e0e9b409efd7facf872d01
+      internalID: -935639110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_44
+      name: castlewall_loop_27
       rect:
         serializedVersion: 2
         x: 320
@@ -1096,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30063090c7e7dd34f8498cb5606d8c01
-      internalID: -206027818
+      spriteID: c16110b48d6b36349aadc55dbdbd0c32
+      internalID: -1486868110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_45
+      name: castlewall_loop_28
       rect:
         serializedVersion: 2
         x: 384
@@ -1118,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7893a2d2c1ab9674ba1118780d4bedf1
-      internalID: -1634346208
+      spriteID: efd8d341692283342a5a9090d5da9dab
+      internalID: -469254473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_46
+      name: castlewall_loop_29
       rect:
         serializedVersion: 2
         x: 448
@@ -1140,58 +766,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93248f63b84c6bf47bc2085c9413b6e2
-      internalID: -1918643740
+      spriteID: 57efa087782e47d4797cc61fd273a31a
+      internalID: 1920187768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_47
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 897289653b0efae4e8608c2a112f385b
-      internalID: 1038466844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_48
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e79cd724e1cae64498d74d97e4870451
-      internalID: 1687027603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_49
+      name: castlewall_loop_30
       rect:
         serializedVersion: 2
         x: 0
@@ -1206,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7d38a97dfd3c304ca4fc351c5e45f04
-      internalID: -808368572
+      spriteID: 1f0d28160e1977f4c979de572b9cc3a3
+      internalID: 735506259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_50
+      name: castlewall_loop_31
       rect:
         serializedVersion: 2
         x: 64
@@ -1228,14 +810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f1ef58fced49740b914024e0a9dfbb
-      internalID: 1175753324
+      spriteID: 52dc62e5b2d58f948a84860c56abf8af
+      internalID: 800904967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_51
+      name: castlewall_loop_32
       rect:
         serializedVersion: 2
         x: 128
@@ -1250,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f94181fc7997834e991a7a24a9d87a8
-      internalID: -980841745
+      spriteID: 4c0e056d29284f947973c49882cd61a9
+      internalID: -370961715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_52
+      name: castlewall_loop_33
       rect:
         serializedVersion: 2
         x: 192
@@ -1272,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6d305cb0c601a4fa5a8ed684bb234f
-      internalID: 842323990
+      spriteID: 7649c04b451a33b4c946a198df175697
+      internalID: 615438414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_53
+      name: castlewall_loop_34
       rect:
         serializedVersion: 2
         x: 256
@@ -1294,14 +876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f58bc3789235be4469d390da56dd0f09
-      internalID: -1274225871
+      spriteID: dcb1634bd418eac48a5fbea9cf9fa971
+      internalID: 1371920688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_54
+      name: castlewall_loop_35
       rect:
         serializedVersion: 2
         x: 320
@@ -1316,14 +898,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 165899e286657764a89c82aad13bfd3a
-      internalID: 761568850
+      spriteID: bd952dc92b1ea034db8d0efe4c39d973
+      internalID: -929272288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_55
+      name: castlewall_loop_36
       rect:
         serializedVersion: 2
         x: 384
@@ -1338,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1d30aae01bcee44a87846cd72ddf1d2
-      internalID: -332154697
+      spriteID: 4277d834e24d5af4dadf66bd9f2215c9
+      internalID: 1436221162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_56
+      name: castlewall_loop_37
       rect:
         serializedVersion: 2
         x: 448
@@ -1360,58 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63400e0d7a40e9446a85a4c6a095ad22
-      internalID: 90993549
+      spriteID: e71f540f103828e448c0c083b11949e3
+      internalID: 1135719080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_57
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ec05a997e3ab24ea8b173a10ea1eb1
-      internalID: 1419712436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_58
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ea63940a2980e84b816c2c7c41ef275
-      internalID: -921738989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_59
+      name: castlewall_loop_38
       rect:
         serializedVersion: 2
         x: 0
@@ -1426,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfa77c8e2415afe4b9b7c9ff745e71cd
-      internalID: -1361799885
+      spriteID: 236fd962d50d02845ab84bd7f643ab74
+      internalID: 1520897561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_60
+      name: castlewall_loop_39
       rect:
         serializedVersion: 2
         x: 64
@@ -1448,14 +986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e70321b4c5586646bb469c09dfad1b6
-      internalID: 607881816
+      spriteID: 78a292a252654774f910b9edafb0a9af
+      internalID: 1681156319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_61
+      name: castlewall_loop_40
       rect:
         serializedVersion: 2
         x: 128
@@ -1470,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d8eaee5ccaf2b4da75cb974674a527
-      internalID: -1897479146
+      spriteID: 8113d352136c92f488ecbb50c57b4916
+      internalID: 812536709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_62
+      name: castlewall_loop_41
       rect:
         serializedVersion: 2
         x: 192
@@ -1492,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48fd0db7d862d04c8e1712d9f635b24
-      internalID: -2057834799
+      spriteID: 16fcce8a0854bb545b3fd130970712e2
+      internalID: 2133316981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_63
+      name: castlewall_loop_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1514,14 +1052,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c582038c2f53be49bb6018952904c2e
-      internalID: -1288347679
+      spriteID: c90399e0c70794a4c99f974667cd271a
+      internalID: 1069900074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_64
+      name: castlewall_loop_43
       rect:
         serializedVersion: 2
         x: 320
@@ -1536,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8daa18623e5299845a580338f54e4daa
-      internalID: 1446958189
+      spriteID: 8f9b2603b4cb7b14fb2776da635f818f
+      internalID: 966299102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_65
+      name: castlewall_loop_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1558,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4502df8ec23ec364dac4dfed126f7de8
-      internalID: 685533952
+      spriteID: 6bd1ee34b9f25c349807abb80d3f22a3
+      internalID: -1157721192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castlewall pinggir kiri_66
+      name: castlewall_loop_45
       rect:
         serializedVersion: 2
         x: 448
@@ -1580,52 +1118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0b1bc1f575a8847be260cdb379efdc
-      internalID: 1874631183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_67
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd30bf53ac65e744ab90b153fe427822
-      internalID: 90786076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castlewall pinggir kiri_68
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c28c89fd9ddf9347ad6bcc508c9fb4f
-      internalID: 1574389475
+      spriteID: 5c2804e4d27e4d9419c77e441157c825
+      internalID: 1683636952
       vertices: []
       indices: 
       edges: []
@@ -1634,7 +1128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cee72a981f2d57243b5fc7b36ee9e6bb
+    spriteID: c30dc0e83f671224e82840b19ae5f312
     internalID: 0
     vertices: []
     indices: 
@@ -1644,75 +1138,52 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      castlewall pinggir kiri_0: 4294477546359928004
-      castlewall pinggir kiri_1: 46154095
-      castlewall pinggir kiri_10: -998308711
-      castlewall pinggir kiri_11: 1831647671
-      castlewall pinggir kiri_12: -704159035
-      castlewall pinggir kiri_13: -70454546
-      castlewall pinggir kiri_14: 344636565
-      castlewall pinggir kiri_15: -636094915
-      castlewall pinggir kiri_16: 358443524
-      castlewall pinggir kiri_17: 1757451666
-      castlewall pinggir kiri_18: 851926487
-      castlewall pinggir kiri_19: 184887004
-      castlewall pinggir kiri_2: -434968837
-      castlewall pinggir kiri_20: 16856696
-      castlewall pinggir kiri_21: -323246914
-      castlewall pinggir kiri_22: -149386366
-      castlewall pinggir kiri_23: 404822133
-      castlewall pinggir kiri_24: -1626182731
-      castlewall pinggir kiri_25: -1484380521
-      castlewall pinggir kiri_26: -1217326620
-      castlewall pinggir kiri_27: 1122014153
-      castlewall pinggir kiri_28: -1880478514
-      castlewall pinggir kiri_29: 561721775
-      castlewall pinggir kiri_3: -1283538884
-      castlewall pinggir kiri_30: -1770970944
-      castlewall pinggir kiri_31: -2129285114
-      castlewall pinggir kiri_32: 56562119
-      castlewall pinggir kiri_33: 640760254
-      castlewall pinggir kiri_34: -577149557
-      castlewall pinggir kiri_35: -1014002822
-      castlewall pinggir kiri_36: -500665540
-      castlewall pinggir kiri_37: 1706374457
-      castlewall pinggir kiri_38: -1449782527
-      castlewall pinggir kiri_39: -40051491
-      castlewall pinggir kiri_4: 1012791470
-      castlewall pinggir kiri_40: -1987396467
-      castlewall pinggir kiri_41: 1501002359
-      castlewall pinggir kiri_42: -1894345827
-      castlewall pinggir kiri_43: 1860950799
-      castlewall pinggir kiri_44: -206027818
-      castlewall pinggir kiri_45: -1634346208
-      castlewall pinggir kiri_46: -1918643740
-      castlewall pinggir kiri_47: 1038466844
-      castlewall pinggir kiri_48: 1687027603
-      castlewall pinggir kiri_49: -808368572
-      castlewall pinggir kiri_5: 175133237
-      castlewall pinggir kiri_50: 1175753324
-      castlewall pinggir kiri_51: -980841745
-      castlewall pinggir kiri_52: 842323990
-      castlewall pinggir kiri_53: -1274225871
-      castlewall pinggir kiri_54: 761568850
-      castlewall pinggir kiri_55: -332154697
-      castlewall pinggir kiri_56: 90993549
-      castlewall pinggir kiri_57: 1419712436
-      castlewall pinggir kiri_58: -921738989
-      castlewall pinggir kiri_59: -1361799885
-      castlewall pinggir kiri_6: 1467646357
-      castlewall pinggir kiri_60: 607881816
-      castlewall pinggir kiri_61: -1897479146
-      castlewall pinggir kiri_62: -2057834799
-      castlewall pinggir kiri_63: -1288347679
-      castlewall pinggir kiri_64: 1446958189
-      castlewall pinggir kiri_65: 685533952
-      castlewall pinggir kiri_66: 1874631183
-      castlewall pinggir kiri_67: 90786076
-      castlewall pinggir kiri_68: 1574389475
-      castlewall pinggir kiri_7: 1723354378
-      castlewall pinggir kiri_8: 1501405122
-      castlewall pinggir kiri_9: -1912081328
+      castlewall_loop_0: 8694761624912703626
+      castlewall_loop_1: -1107769816
+      castlewall_loop_10: -1713902595
+      castlewall_loop_11: 191085470
+      castlewall_loop_12: -1711418499
+      castlewall_loop_13: 1914174156
+      castlewall_loop_14: 22644436
+      castlewall_loop_15: -1952174639
+      castlewall_loop_16: 895746930
+      castlewall_loop_17: 853073094
+      castlewall_loop_18: 106396528
+      castlewall_loop_19: 1391681584
+      castlewall_loop_2: 1002503134
+      castlewall_loop_20: -1617561799
+      castlewall_loop_21: 1931933600
+      castlewall_loop_22: 934449602
+      castlewall_loop_23: 2032054328
+      castlewall_loop_24: 1193789759
+      castlewall_loop_25: 960248555
+      castlewall_loop_26: -935639110
+      castlewall_loop_27: -1486868110
+      castlewall_loop_28: -469254473
+      castlewall_loop_29: 1920187768
+      castlewall_loop_3: 1964659429
+      castlewall_loop_30: 735506259
+      castlewall_loop_31: 800904967
+      castlewall_loop_32: -370961715
+      castlewall_loop_33: 615438414
+      castlewall_loop_34: 1371920688
+      castlewall_loop_35: -929272288
+      castlewall_loop_36: 1436221162
+      castlewall_loop_37: 1135719080
+      castlewall_loop_38: 1520897561
+      castlewall_loop_39: 1681156319
+      castlewall_loop_4: -324523360
+      castlewall_loop_40: 812536709
+      castlewall_loop_41: 2133316981
+      castlewall_loop_42: 1069900074
+      castlewall_loop_43: 966299102
+      castlewall_loop_44: -1157721192
+      castlewall_loop_45: 1683636952
+      castlewall_loop_5: -1431431313
+      castlewall_loop_6: 484315905
+      castlewall_loop_7: 202329821
+      castlewall_loop_8: -1111881702
+      castlewall_loop_9: 1429980929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

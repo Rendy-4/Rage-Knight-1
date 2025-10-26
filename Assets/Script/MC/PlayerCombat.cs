@@ -5,8 +5,7 @@ public class PlayerCombat : MonoBehaviour
 {
     public Animator anim;
     public float cooldown = 2f;
-    private float timer;
-
+    private float timer;   
     void Update()
     {
         if(timer > 0f)

@@ -6,9 +6,13 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private Animator anim;
 
+    public float attackRange = 1;
     public float speed = 3;
     private int facingDirection = -1;
     private EnemyState AnimState, newState;
+
+    public float attackCooldown = 1f;
+    private float nextAttackTime = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,23 +27,21 @@ public class EnemyMovement : MonoBehaviour
     {
        if(AnimState == EnemyState.Chasing && target != null)
         {
-            if (target.position.x > transform.position.x && facingDirection == -1 || target.position.x < transform.position.x && facingDirection == 1)
-            {
-                Flip();
-            }
-            UnityEngine.Vector2 direction = (target.position - transform.position).normalized;
-            rb.linearVelocity = direction * speed;
+            Chase();
+        }
+        if (AnimState == EnemyState.Attacking)
+        {
+            rb.linearVelocity = UnityEngine.Vector2.zero;
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {   
             if (target == null) 
-            {
                 target = collision.transform;
-            }
+                
             ChangeState(EnemyState.Chasing);
         }
     }
@@ -49,8 +51,10 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             rb.linearVelocity = UnityEngine.Vector2.zero;
+            ChangeState(EnemyState.Idle);
+            target = null;
         }
-        ChangeState(EnemyState.Idle);
+        
     }
 
     void Flip()
@@ -60,14 +64,9 @@ public class EnemyMovement : MonoBehaviour
     }
     void ChangeState(EnemyState newState)
     {
-        if (AnimState == EnemyState.Idle)
-        {
-            anim.SetBool("isIdle", false);
-        }
-        else if (AnimState == EnemyState.Chasing)
-        {
-            anim.SetBool("isChasing", false);
-        }
+        anim.SetBool("isIdle", false);
+        anim.SetBool("isChasing", false);
+        anim.SetBool("isAttacking", false);
 
         AnimState = newState;
 
@@ -79,6 +78,43 @@ public class EnemyMovement : MonoBehaviour
         {
             anim.SetBool("isChasing", true);
         }
+        else if (AnimState == EnemyState.Attacking)
+        {
+            anim.SetBool("isAttacking", true);
+        }
+    }
+
+    void Chase()
+    {
+        if (target == null)
+        {
+            return;
+        }
+        float distanceToTarget = Vector2.Distance(transform.position, target.position);
+
+        if (distanceToTarget <= attackRange && Time.time >= nextAttackTime)
+        {
+            nextAttackTime = Time.time + attackCooldown;
+            ChangeState(EnemyState.Attacking);
+        }
+        else if (target.position.x > transform.position.x && facingDirection == -1 || target.position.x < transform.position.x && facingDirection == 1)
+        {
+                Flip();
+        }
+        UnityEngine.Vector2 direction = (target.position - transform.position).normalized;
+        rb.linearVelocity = direction * speed;
+    }
+
+    public void OnAttackAnimationEnd()
+    {
+        if (target != null)
+        {
+            ChangeState(EnemyState.Chasing);
+        }
+        else
+        {
+            ChangeState(EnemyState.Idle);
+        }
     }
 }
 
@@ -86,4 +122,5 @@ public enum EnemyState
 {
     Idle,
     Chasing,
+    Attacking
 }

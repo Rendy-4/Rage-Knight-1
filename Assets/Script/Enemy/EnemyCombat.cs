@@ -15,7 +15,6 @@ public class EnemyCombat : MonoBehaviour
 
     public void Attack()
     {
-        // This method can be called via animation events to trigger attack logic
         Debug.Log("Enemy Attack Triggered");
     }
 }

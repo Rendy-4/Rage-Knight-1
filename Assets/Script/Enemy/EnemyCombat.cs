@@ -8,15 +8,6 @@ public class EnemyCombat : MonoBehaviour
     public Transform attackPoint;
     public float weaponRange = 0.5f;
     public LayerMask targetLayer;
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        HealthManager healthManager = collision.gameObject.GetComponent<HealthManager>();
-        if (collision.gameObject.CompareTag("Player") && healthManager != null)
-        {
-            healthManager.TakeDamage(damage);
-        }
-    }
-
     public void Attack()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, weaponRange, targetLayer);

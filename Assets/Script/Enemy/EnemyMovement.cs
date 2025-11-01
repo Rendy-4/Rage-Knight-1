@@ -10,10 +10,6 @@ public class EnemyMovement : MonoBehaviour
     public float speed = 3;
     private int facingDirection = -1;
     private EnemyState AnimState, newState;
-
-    public float attackCooldown = 1f;
-    private float nextAttackTime = 0f;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
         {
             Chase();
         }
-        if (AnimState == EnemyState.Attacking)
+        else if (AnimState == EnemyState.Attacking)
         {
             rb.linearVelocity = UnityEngine.Vector2.zero;
         }
@@ -52,7 +48,6 @@ public class EnemyMovement : MonoBehaviour
         {
             rb.linearVelocity = UnityEngine.Vector2.zero;
             ChangeState(EnemyState.Idle);
-            target = null;
         }
         
     }
@@ -86,15 +81,8 @@ public class EnemyMovement : MonoBehaviour
 
     void Chase()
     {
-        if (target == null)
+        if (Vector2.Distance(transform.position, target.transform.position) <= attackRange)
         {
-            return;
-        }
-        float distanceToTarget = Vector2.Distance(transform.position, target.position);
-
-        if (distanceToTarget <= attackRange && Time.time >= nextAttackTime)
-        {
-            nextAttackTime = Time.time + attackCooldown;
             ChangeState(EnemyState.Attacking);
         }
         else if (target.position.x > transform.position.x && facingDirection == -1 || target.position.x < transform.position.x && facingDirection == 1)
@@ -105,17 +93,6 @@ public class EnemyMovement : MonoBehaviour
         rb.linearVelocity = direction * speed;
     }
 
-    public void OnAttackAnimationEnd()
-    {
-        if (target != null)
-        {
-            ChangeState(EnemyState.Chasing);
-        }
-        else
-        {
-            ChangeState(EnemyState.Idle);
-        }
-    }
 }
 
 public enum EnemyState

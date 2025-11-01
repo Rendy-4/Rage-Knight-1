@@ -7,7 +7,7 @@ public class EnemyCombat : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         HealthManager healthManager = collision.gameObject.GetComponent<HealthManager>();
-        if (healthManager != null)
+        if (collision.gameObject.CompareTag("Player") && healthManager != null)
         {
             healthManager.TakeDamage(damage);
         }

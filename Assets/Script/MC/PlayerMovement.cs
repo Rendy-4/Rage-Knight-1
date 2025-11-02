@@ -4,12 +4,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float speed = 5f;
+    public float walkSpeed = 5f;
     public Rigidbody2D rb;
     public Animator anim;
     private int facingDirection = 1;
 
     public PlayerCombat player_combat;
+    public PlayerSprint player_sprint;
     void Start()
     {
 
@@ -36,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("horizontal", Mathf.Abs(horizontal));
         anim.SetFloat("vertical", Mathf.Abs(vertical));
 
-        rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
+        rb.linearVelocity = new Vector2(horizontal, vertical) * walkSpeed;
     }
     
     void Flip()

@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 117606584}
   - component: {fileID: 117606583}
   m_Layer: 0
-  m_Name: Ground
+  m_Name: Non-Collision-Low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2328,7 +2328,7 @@ GameObject:
   - component: {fileID: 1329169176}
   - component: {fileID: 1329169175}
   m_Layer: 0
-  m_Name: Non-Collision-low
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31361,6 +31361,26 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -43, y: -84, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -42, y: -84, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -41, y: -84, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 5
@@ -166862,7 +166882,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 16444
+  - m_RefCount: 16446
     m_Data: {fileID: 11400000, guid: 9b7cc70d4100fe843aab85d8ace24687, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -166875,10 +166895,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 16444
+  - m_RefCount: 16446
     m_Data: {fileID: -1904651272, guid: e8dd1e796dc0c514684b2357802853b0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 16444
+  - m_RefCount: 16446
     m_Data:
       e00: 1
       e01: 0
@@ -166897,7 +166917,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 16444
+  - m_RefCount: 16446
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -167333,6 +167353,7 @@ GameObject:
   - component: {fileID: 1641886062}
   - component: {fileID: 1641886063}
   - component: {fileID: 1641886064}
+  - component: {fileID: 1641886065}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -167352,10 +167373,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8701f26391b94a4ca863349db04563c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  walkSpeed: 5
   rb: {fileID: 1641886059}
   anim: {fileID: 1641886062}
   player_combat: {fileID: 1641886063}
+  player_sprint: {fileID: 0}
 --- !u!70 &1641886058
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -167547,6 +167569,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Healthbar: {fileID: 1521884716}
   Maxhealth: 100
+--- !u!114 &1641886065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641886056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4086962cb3ae98c4d812ad09109a6e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalStamina: 100
+  currentStamina: 100
+  sprintSpeed: 10
+  sprintCost: 10
+  rechargeRate: 25
+  normalSpeed: 5
+  staminaBar: {fileID: 1567791837}
+  isSprinting: 0
 --- !u!1 &1950591831
 GameObject:
   m_ObjectHideFlags: 0

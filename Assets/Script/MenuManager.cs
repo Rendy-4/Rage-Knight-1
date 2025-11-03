@@ -12,6 +12,7 @@ public class MenuManager : MonoBehaviour
     public void exitGame()
     {
         Application.Quit();
+        Debug.Log("User Telah Keluar");
     }
 
     public void setPanelName(string name)

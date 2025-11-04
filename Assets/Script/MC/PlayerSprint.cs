@@ -21,7 +21,9 @@ public class PlayerSprint : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Sprint") && currentStamina > 0)
+        bool isMoving = Mathf.Abs(playerMovement.rb.linearVelocity.x) > 0.1f || Mathf.Abs(playerMovement.rb.linearVelocity.y) > 0.1f;
+
+        if (Input.GetButton("Sprint") && currentStamina > 0 && isMoving)
         {
             isSprinting = true;
         }

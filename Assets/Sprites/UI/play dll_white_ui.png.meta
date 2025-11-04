@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 9e93735e7fee7aa46b446f4b93b43c14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7888785422939200722
+    second: play dll_white_ui_0
+  - first:
+      213: 8565087832383234695
+    second: play dll_white_ui_1
+  - first:
+      213: 4007096833324900252
+    second: play dll_white_ui_2
+  - first:
+      213: -7652944630298031728
+    second: play dll_white_ui_3
+  - first:
+      213: -124931419099753855
+    second: play dll_white_ui_4
+  - first:
+      213: -1092976554811051680
+    second: play dll_white_ui_5
+  - first:
+      213: -5027760023607712489
+    second: play dll_white_ui_6
+  - first:
+      213: 7053925609367549381
+    second: play dll_white_ui_7
+  - first:
+      213: -7336134369658079476
+    second: play dll_white_ui_8
+  - first:
+      213: 5794954666725769537
+    second: play dll_white_ui_9
+  - first:
+      213: 5516101316768880590
+    second: play dll_white_ui_10
+  - first:
+      213: 3009643903192109763
+    second: play dll_white_ui_11
+  - first:
+      213: 9213296541583764656
+    second: play dll_white_ui_12
+  - first:
+      213: 6250862722217578975
+    second: play dll_white_ui_13
+  - first:
+      213: -3745455840048974017
+    second: play dll_white_ui_14
+  - first:
+      213: 6902365266500867059
+    second: play dll_white_ui_15
+  - first:
+      213: 2172743437391052457
+    second: play dll_white_ui_16
+  - first:
+      213: 4092928241337346231
+    second: play dll_white_ui_17
+  - first:
+      213: 4059921153509968253
+    second: play dll_white_ui_18
+  - first:
+      213: 1949777480187780953
+    second: play dll_white_ui_19
+  - first:
+      213: -9179232196168992822
+    second: play dll_white_ui_20
+  - first:
+      213: -92365189541906786
+    second: play dll_white_ui_21
+  - first:
+      213: -1895788412896026547
+    second: play dll_white_ui_22
+  - first:
+      213: 3788832098096229273
+    second: play dll_white_ui_23
+  - first:
+      213: 3410400106270400948
+    second: play dll_white_ui_24
+  - first:
+      213: -7958644401252554501
+    second: play dll_white_ui_25
+  - first:
+      213: 665905174597017224
+    second: play dll_white_ui_26
+  - first:
+      213: 6984270513895223963
+    second: play dll_white_ui_27
+  - first:
+      213: 5884102085536859878
+    second: play dll_white_ui_28
+  - first:
+      213: -1922466280717365649
+    second: play dll_white_ui_29
+  - first:
+      213: 4980127642019394592
+    second: play dll_white_ui_30
+  - first:
+      213: 3583935242093002976
+    second: play dll_white_ui_31
+  - first:
+      213: 1430988379563868424
+    second: play dll_white_ui_32
+  - first:
+      213: -1206324173789637126
+    second: play dll_white_ui_33
+  - first:
+      213: -5414568204486973651
+    second: play dll_white_ui_34
+  - first:
+      213: -5372926776289725692
+    second: play dll_white_ui_35
+  - first:
+      213: 1549013814184109497
+    second: play dll_white_ui_36
+  - first:
+      213: 561353923600101684
+    second: play dll_white_ui_37
+  - first:
+      213: -6880537966559293832
+    second: play dll_white_ui_38
+  - first:
+      213: 4002693970470589151
+    second: play dll_white_ui_39
+  - first:
+      213: 3608180793117163199
+    second: play dll_white_ui_40
+  - first:
+      213: 4839501513032174481
+    second: play dll_white_ui_41
+  - first:
+      213: -7545219417195512947
+    second: play dll_white_ui_42
+  - first:
+      213: -8410418952194923611
+    second: play dll_white_ui_43
+  - first:
+      213: 8064077270859329998
+    second: play dll_white_ui_44
+  - first:
+      213: 8683201969632641455
+    second: play dll_white_ui_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: play dll_white_ui_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23ed645477658290800000000000000
+      internalID: -7888785422939200722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7822937f00e4dd670800000000000000
+      internalID: 8565087832383234695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f5ce2e6511c9730800000000000000
+      internalID: 4007096833324900252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0994a51e7674bc590800000000000000
+      internalID: -7652944630298031728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18216474987244ef0800000000000000
+      internalID: -124931419099753855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06138ae3d97f4d0f0800000000000000
+      internalID: -1092976554811051680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715e3f095eec93ab0800000000000000
+      internalID: -5027760023607712489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play dll_white_ui_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 368
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5326ae7f394e160800000000000000
+      internalID: 7053925609367549381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ccff4620074bd03438fc07515c686dfd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      play dll_white_ui_0: -7888785422939200722
+      play dll_white_ui_1: 8565087832383234695
+      play dll_white_ui_2: 4007096833324900252
+      play dll_white_ui_3: -7652944630298031728
+      play dll_white_ui_4: -124931419099753855
+      play dll_white_ui_5: -1092976554811051680
+      play dll_white_ui_6: -5027760023607712489
+      play dll_white_ui_7: 7053925609367549381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

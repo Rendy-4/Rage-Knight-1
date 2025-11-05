@@ -16,7 +16,7 @@ public class HealthManager : MonoBehaviour
 
         if (Maxhealth <= 0)
         {
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
     public void Heal(float healAmount)

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -9,6 +10,8 @@ public class PlayerCombat : MonoBehaviour
     public int attackDamage = 10;
 
     public Animator anim;
+    public HitPause hitPause;
+    public PlayerMovement playerMovement;
 
     public float cooldown = 2f;
     private float timer;   
@@ -46,6 +49,11 @@ public class PlayerCombat : MonoBehaviour
                 {
                     enemyHealth.TakeDamage(attackDamage);
                 }
+            }
+
+            if (hitPause != null)
+            {
+                hitPause.Stop(0.1f);
             }
         }
     }

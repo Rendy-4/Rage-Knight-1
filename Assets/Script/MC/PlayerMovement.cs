@@ -10,11 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private int facingDirection = 1;
 
     public PlayerCombat player_combat;
-    public PlayerSprint player_sprint;
-    void Start()
-    {
-
-    }
+    private PlayerSprint player_sprint;
 
     void Update()
     {

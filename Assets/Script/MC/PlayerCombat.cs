@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -10,7 +11,6 @@ public class PlayerCombat : MonoBehaviour
     public int attackDamage = 10;
 
     public Animator anim;
-    public HitPause hitPause;
     public PlayerMovement playerMovement;
 
     public float cooldown = 2f;
@@ -40,6 +40,9 @@ public class PlayerCombat : MonoBehaviour
     public void DealDamage()
     {
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        FindAnyObjectByType<HitPause>().Stop(0.1f);
+
         if (enemies.Length > 0)
         {
             foreach (Collider2D enemy in enemies)
@@ -51,10 +54,7 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
 
-            if (hitPause != null)
-            {
-                hitPause.Stop(0.1f);
-            }
+            StartCoroutine(waitForSpawn());
         }
     }
 
@@ -62,6 +62,11 @@ public class PlayerCombat : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    IEnumerator waitForSpawn()
+    {
+        yield return null;
     }
 }
 

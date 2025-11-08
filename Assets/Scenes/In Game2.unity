@@ -111398,7 +111398,7 @@ Transform:
   m_GameObject: {fileID: 1104242693}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.39709, y: -85.956856, z: -0.035162926}
+  m_LocalPosition: {x: 43.43709, y: -94.67686, z: -0.035162926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359707,7 +359707,7 @@ Transform:
   m_GameObject: {fileID: 1554586416}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.39709, y: -85.956856, z: -0.035162926}
+  m_LocalPosition: {x: 43.43709, y: -94.67686, z: -0.035162926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -360098,7 +360098,7 @@ Transform:
   m_GameObject: {fileID: 1641886056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.75, y: -82.47, z: 0}
+  m_LocalPosition: {x: 41.79, y: -91.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -360147,6 +360147,7 @@ MonoBehaviour:
   attackDamage: 10
   anim: {fileID: 1641886062}
   playerMovement: {fileID: 1641886057}
+  DamagePopup: {fileID: 5794157932707906224, guid: 2a2345275d497fd43a93688e067f39d6, type: 3}
   cooldown: 0.5
 --- !u!114 &1641886064
 MonoBehaviour:

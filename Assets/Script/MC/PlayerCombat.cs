@@ -12,6 +12,7 @@ public class PlayerCombat : MonoBehaviour
 
     public Animator anim;
     public PlayerMovement playerMovement;
+    public Transform DamagePopup;
 
     public float cooldown = 2f;
     private float timer;   
@@ -51,6 +52,10 @@ public class PlayerCombat : MonoBehaviour
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(attackDamage);
+
+                    Transform popup = Instantiate(DamagePopup, new Vector3(enemy.transform.position.x, enemy.transform.position.y + 1, enemy.transform.position.z), Quaternion.identity);
+
+                    popup.GetComponent<PopupDamage>().Setup(attackDamage);
                 }
             }
 

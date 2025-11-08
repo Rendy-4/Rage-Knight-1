@@ -13,7 +13,7 @@ public class TabControler : MonoBehaviour
 
     public void activeTab(int tabIndex)
     {
-        for (int i =0; i < pages.Length; i++)
+        for (int i = 0; i < pages.Length; i++)
         {
             pages[i].SetActive(false);
             ColorBlock colorBlock = tabButtons[i].colors;

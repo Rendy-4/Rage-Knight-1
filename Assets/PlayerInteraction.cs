@@ -14,10 +14,12 @@ public class PlayerInteraction : MonoBehaviour
                 if (!IsMarketOpen)
                 {
                     MarketUI.Instance.OpenMarket();
+                    nearbymarket.HideText();
                 }
                 else
                 {
                     MarketUI.Instance.CloseMarket();
+                    nearbymarket.ShowText();
                 }
 
                 IsMarketOpen = !IsMarketOpen;

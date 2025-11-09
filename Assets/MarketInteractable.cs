@@ -13,12 +13,23 @@ public class MarketInteractable : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         IsPlayerNear = true;
-        InteractText.SetActive(true);
+        InteractText.SetActive(true);  
     }
     void OnTriggerExit2D(Collider2D collision)
     {
         IsPlayerNear = false;
         InteractText.SetActive(false);
+    }
+    public void HideText()
+    {
+        InteractText.SetActive(false);
+    }
+    public void ShowText()
+    {
+        if (isPlayerNear)
+        {
+            InteractText.SetActive(true);
+        }
     }
     public bool isPlayerNear => IsPlayerNear;
 }

@@ -51,8 +51,12 @@ public class EnemyMovement : MonoBehaviour
 
             if (Vector2.Distance(transform.position, target.transform.position) <= attackRange && timerCooldown <= 0)
             {
-            timerCooldown = attackCooldown;
-            ChangeState(EnemyState.Attacking);
+                rb.linearVelocity = Vector2.zero;
+                if (timerCooldown <= 0)
+                {
+                    timerCooldown = attackCooldown;
+                    ChangeState(EnemyState.Attacking);   
+                }
             }
             else if (Vector2.Distance(transform.position, target.transform.position) > attackRange)
             {

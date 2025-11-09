@@ -42,10 +42,11 @@ public class PlayerCombat : MonoBehaviour
     {
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        FindAnyObjectByType<HitPause>().Stop(0.1f);
+        
 
         if (enemies.Length > 0)
         {
+            FindAnyObjectByType<HitPause>().Stop(0.1f);
             foreach (Collider2D enemy in enemies)
             {
                 EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();

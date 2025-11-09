@@ -75,7 +75,6 @@ GameObject:
   - component: {fileID: 577572183786235133}
   - component: {fileID: 7171786318655887005}
   - component: {fileID: 3458586458114398529}
-  - component: {fileID: 8489702530602553889}
   - component: {fileID: 8365136286323198067}
   - component: {fileID: 3635214347974275461}
   - component: {fileID: 3910382243922568325}
@@ -233,42 +232,6 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!58 &8489702530602553889
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8993333837133961737}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 1.5841017, y: -0.24388552}
-  m_Radius: 3.3481464
 --- !u!50 &8365136286323198067
 Rigidbody2D:
   serializedVersion: 5

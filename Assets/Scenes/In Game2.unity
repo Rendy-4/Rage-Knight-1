@@ -88241,6 +88241,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: RandomRangeX
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: RandomRangeY
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7183178184208920554, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
       propertyPath: m_Name
       value: Enemy Spawner (1)
@@ -394929,6 +394937,22 @@ PrefabInstance:
     - target: {fileID: 1616621766891791736, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: maxSpawnRangeX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: maxSpawnRangeY
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: minSpawnRangeX
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925755900595548299, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
+      propertyPath: minSpawnRangeY
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 7183178184208920554, guid: 7d49d001b9e8caa4e873e9a0688644bf, type: 3}
       propertyPath: m_Name

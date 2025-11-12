@@ -50,13 +50,15 @@ public class PlayerCombat : MonoBehaviour
             foreach (Collider2D enemy in enemies)
             {
                 EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+                bool isCriticalHit = Random.Range(0f,100f) < 50f;
+                int finalDamage = isCriticalHit ? attackDamage * 2 : attackDamage;
                 if (enemyHealth != null)
                 {
-                    enemyHealth.TakeDamage(attackDamage);
+                    enemyHealth.TakeDamage(finalDamage);
 
                     Transform popup = Instantiate(DamagePopup, new Vector3(enemy.transform.position.x, enemy.transform.position.y + 1, enemy.transform.position.z), Quaternion.identity);
 
-                    popup.GetComponent<PopupDamage>().Setup(attackDamage);
+                    popup.GetComponent<PopupDamage>().Setup(finalDamage, isCriticalHit);
                 }
             }
 

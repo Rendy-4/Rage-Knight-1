@@ -12,7 +12,6 @@ public class PopupDamage : MonoBehaviour
     void Awake()
     {
         textMesh = GetComponentInChildren<TextMeshProUGUI>();
-        textColor = textMesh.color;
     }
 
     void Update()
@@ -33,8 +32,21 @@ public class PopupDamage : MonoBehaviour
     }
 
     // Opsional: supaya bisa ubah angka saat dipanggil
-    public void Setup(int damageAmount)
+    public void Setup(int damageAmount, bool isCritical = false)
     {
         textMesh.text = damageAmount.ToString();
+
+        if (isCritical)
+        {
+            textMesh.color = Color.red;
+            textMesh.fontSize *= 1.5f;
+        }
+        else
+        {
+            textMesh.color = Color.white;
+        }
+
+        textColor = textMesh.color;
     }
+
 }

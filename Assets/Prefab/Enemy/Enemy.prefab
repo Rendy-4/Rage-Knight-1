@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 8365136286323198067}
   - component: {fileID: 3635214347974275461}
   - component: {fileID: 3910382243922568325}
+  - component: {fileID: 917901617797556436}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -295,3 +296,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   maxHealth: 100
+--- !u!114 &917901617797556436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993333837133961737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa437413308945942a78f0e0486603ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 9008122859898195820, guid: bc14886edcb53b64ba85a6270410f6b9, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: 0942f67b88939fa48b676f6b6e4756a4, type: 2}

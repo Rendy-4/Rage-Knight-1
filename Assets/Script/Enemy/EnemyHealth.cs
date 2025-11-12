@@ -15,6 +15,11 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+            LootBag lootBag = GetComponent<LootBag>();
+            if (lootBag != null)
+            {
+                lootBag.InstantiateLoot(transform.position);
+            }
             Destroy(gameObject);
         }
     }

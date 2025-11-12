@@ -35,6 +35,10 @@ public class PopupDamage : MonoBehaviour
     public void Setup(int damageAmount, bool isCritical = false)
     {
         textMesh.text = damageAmount.ToString();
+        if (textMesh == null)
+        {
+            textMesh = GetComponentInChildren<TextMeshProUGUI>();
+        }
 
         if (isCritical)
         {

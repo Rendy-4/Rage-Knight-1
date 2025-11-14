@@ -1,7 +1,14 @@
+using System.Data.Common;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour, IDataPresistence
 {
+    [SerializeField] private string enemyID;
+    [ContextMenu("Generate Enemy ID")]
+    private void GenerateEnemyID()
+    {
+        enemyID = System.Guid.NewGuid().ToString();
+    }
     private Rigidbody2D rb;
     private Transform target;
     private Animator anim;
@@ -16,7 +23,26 @@ public class EnemyMovement : MonoBehaviour
     private float timerCooldown = 0f;
     private int facingDirection = -1;
     private EnemyState AnimState, newState;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public void LoadData(GameData data)
+    {
+        if (data.EnemyDefeated.ContainsKey(enemyID) && data.EnemyDefeated[enemyID])
+        {
+            Destroy(gameObject);
+        }
+    }
+    public bool isDead = false;
+    public void SaveData(ref GameData data)
+    {
+        if (!data.EnemyDefeated.ContainsKey(enemyID))
+        {
+            data.EnemyDefeated.Add(enemyID,isDead);
+        }
+        else
+        {
+            data.EnemyDefeated[enemyID] = isDead;
+        }
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

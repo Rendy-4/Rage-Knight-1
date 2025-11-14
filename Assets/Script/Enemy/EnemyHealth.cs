@@ -12,6 +12,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        GetComponent<EnemyMovement>().isDead = true;
         currentHealth -= damage;
         if (currentHealth <= 0)
         {

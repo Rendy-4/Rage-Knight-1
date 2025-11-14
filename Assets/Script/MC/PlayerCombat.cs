@@ -50,7 +50,7 @@ public class PlayerCombat : MonoBehaviour
             foreach (Collider2D enemy in enemies)
             {
                 EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
-                bool isCriticalHit = Random.Range(0f,100f) < 50f;
+                bool isCriticalHit = Random.Range(0f,100f) < 20f;
                 int finalDamage = isCriticalHit ? attackDamage * 2 : attackDamage;
                 if (enemyHealth != null)
                 {

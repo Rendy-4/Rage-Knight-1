@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthManager : MonoBehaviour
+public class HealthManager : MonoBehaviour, IDataPresistence
 {
     public Image Healthbar;
     public float Maxhealth = 100f;
@@ -24,5 +24,15 @@ public class HealthManager : MonoBehaviour
         Maxhealth += healAmount;
         Maxhealth = Mathf.Clamp(Maxhealth, 0, 100);
         Healthbar.fillAmount = Maxhealth / 100f;
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.Maxhealth = data.playerHealth;
+        Healthbar.fillAmount = Maxhealth / 100f;
+    }
+    public void SaveData(ref GameData data)
+    {
+        data.playerHealth = this.Maxhealth;
     }
 }

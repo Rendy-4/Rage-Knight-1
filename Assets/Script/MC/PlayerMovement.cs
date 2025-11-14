@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IDataPresistence
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float walkSpeed = 5f;
@@ -40,5 +40,14 @@ public class PlayerMovement : MonoBehaviour
     {
         facingDirection *= -1;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+    }
+
+    public void LoadData(GameData data)
+    {
+        transform.position = data.playerPosition;
+    }
+    public void SaveData(ref GameData data)
+    {
+        data.playerPosition = transform.position;
     }
 }

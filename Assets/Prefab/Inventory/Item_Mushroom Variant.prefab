@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3608237416284494710
+--- !u!1001 &2854637820324901882
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,12 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4444657825964829657, guid: 9a575bf2c9bf8584db8e45842b695725, type: 3}
       propertyPath: m_Name
-      value: Wood Variant
+      value: Item_Mushroom Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5396724657902291121, guid: 9a575bf2c9bf8584db8e45842b695725, type: 3}
       propertyPath: itemData
       value: 
-      objectReference: {fileID: 11400000, guid: 6ce363fa56ff2e5438bef707680b00b2, type: 2}
+      objectReference: {fileID: 11400000, guid: d7a380f4226d9444e854ce465deeee5f, type: 2}
     - target: {fileID: 8301088504606599187, guid: 9a575bf2c9bf8584db8e45842b695725, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

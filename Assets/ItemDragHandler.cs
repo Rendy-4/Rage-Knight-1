@@ -9,6 +9,7 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -31,7 +32,7 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         canvasGroup.blocksRaycasts = true;
         canvasGroup.alpha = 1f;
 
-        Slot dropslot = eventData.pointerEnter?.GetComponent<Slot>();
+        Slot dropslot = eventData.pointerEnter?.GetComponentInParent<Slot>();
         Slot originalslot = originalparent.GetComponent<Slot>();
 
         // Jika original slot tidak valid → kembalikan item

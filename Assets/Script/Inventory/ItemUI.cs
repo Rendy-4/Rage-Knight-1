@@ -10,7 +10,6 @@ public class ItemUI : MonoBehaviour
     [Header("UI refs")]
     public Image icon;            
     public TMP_Text amountText;   // optional, assign di prefab; bisa null
-
     private Image _cachedImage;
 
     private void Awake()
@@ -46,7 +45,8 @@ public class ItemUI : MonoBehaviour
 
     public void AddAmount(int add)
     {
-        ChangeAmount(amount + add);
+        amount += add;
+        amountText.text = amount.ToString();
     }
 
     public void RefreshAmountText()

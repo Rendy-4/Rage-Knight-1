@@ -31,9 +31,9 @@ public class InventorySaveSystem : MonoBehaviour, IDataPresistence
         {
             var slot = slots[i];
 
-            if (slot.CurrentItem != null)
+            if (slot.currentItem != null)
             {
-                ItemUI ui = slot.CurrentItem.GetComponent<ItemUI>();
+                ItemUI ui = slot.currentItem.GetComponent<ItemUI>();
                 data.inventoryData.savedSlots.Add(
                     new SavedSlotData(i, ui.itemData.itemID, ui.amount)
                 );

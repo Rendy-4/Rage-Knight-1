@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f3acb544f11dd145a0465fa9c27316c, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
-  itemID: 3
+  itemID: wood_003
   itemName: Wood
   icon: {fileID: 1275636010513105045, guid: e23daa53722f45545afe4221005d6cb2, type: 3}

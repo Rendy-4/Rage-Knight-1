@@ -13,7 +13,43 @@ public class InventoryController : MonoBehaviour
     void Start()
     {
         GenerateSlots();
+        //Test Code 
+        ItemData wood = ItemDatabase.Instance.GetItemByID("wood_003");
+        ItemData Rock = ItemDatabase.Instance.GetItemByID("rock_002");
+        SpawnTestItem(0, wood, 8);
+        SpawnTestItem(1, wood, 2);
+        SpawnTestItem(2, Rock, 2);
+
     }
+
+    //test Func//
+    private void SpawnTestItem(int index, ItemData data, int amount)
+{
+    if (data == null)
+    {
+        Debug.LogError("ItemData NULL saat spawn!");
+        return;
+    }
+
+    Slot slot = slots[index];
+
+    GameObject prefab = FindPrefabForItem(data);
+    if (prefab == null)
+    {
+        Debug.LogError("Prefab NULL untuk item: " + data.itemID);
+        return;
+    }
+
+    GameObject item = Instantiate(prefab, slot.transform);
+    ItemUI ui = item.GetComponent<ItemUI>();
+
+    ui.Setup(data, amount);
+
+    item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+    slot.currentItem = item;
+}
+
+    //test Func//
 
     private void GenerateSlots()
     {
@@ -25,24 +61,33 @@ public class InventoryController : MonoBehaviour
     }
 
     private GameObject FindPrefabForItem(ItemData data)
+{
+    foreach (GameObject prefab in ItemPrefabs)
     {
-        foreach (GameObject prefab in ItemPrefabs)
-        {
-            var ui = prefab.GetComponent<ItemUI>();
-            if (ui != null && ui.itemData == data)
-                return prefab;
-        }
-        return null;
+        var ui = prefab.GetComponent<ItemUI>();
+
+        Debug.Log(
+            $"Check prefab {prefab.name}: prefab.itemDataID={ui.itemData?.itemID}, " +
+            $"searchID={data?.itemID}, SAME? {ui.itemData == data}"
+        );
+
+        if (ui != null && ui.itemData == data)
+            return prefab;
     }
+
+    Debug.LogError("Prefab NOT FOUND untuk item: " + data.itemID);
+    return null;
+}
+
 
     public void ClearInventory()
     {
         foreach (var slot in slots)
         {
-            if (slot.CurrentItem != null)
+            if (slot.currentItem != null)
             {
-                Destroy(slot.CurrentItem);
-                slot.CurrentItem = null;
+                Destroy(slot.currentItem);
+                slot.currentItem = null;
             }
         }
     }
@@ -70,7 +115,7 @@ public class InventoryController : MonoBehaviour
             ItemUI ui = item.GetComponent<ItemUI>();
 
             ui.Setup(data, saved.amount);
-            slot.CurrentItem = item;
+            slot.currentItem = item;
         }
     }
 
@@ -82,9 +127,9 @@ public class InventoryController : MonoBehaviour
     {
         foreach (var slot in slots)
         {
-            if (slot.CurrentItem != null)
+            if (slot.currentItem != null)
             {
-                var ui = slot.CurrentItem.GetComponent<ItemUI>();
+                var ui = slot.currentItem.GetComponent<ItemUI>();
                 if (ui.itemData == data)
                 {
                     ui.amount += amount;
@@ -95,7 +140,7 @@ public class InventoryController : MonoBehaviour
         }
         foreach (var slot in slots)
         {
-            if (slot.CurrentItem == null)
+            if (slot.currentItem == null)
             {
                 GameObject prefab = FindPrefabForItem(data);
                 GameObject item = Instantiate(prefab, slot.transform);
@@ -103,7 +148,7 @@ public class InventoryController : MonoBehaviour
                 ItemUI ui = item.GetComponent<ItemUI>();
                 ui.Setup(data, amount);
 
-                slot.CurrentItem = item;
+                slot.currentItem = item;
                 return; 
             }
         }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f3acb544f11dd145a0465fa9c27316c, type: 3}
   m_Name: Mushroom
   m_EditorClassIdentifier: 
-  itemID: 1
+  itemID: mushroom_001
   itemName: Mushroom
   icon: {fileID: -1870120343521429677, guid: e23daa53722f45545afe4221005d6cb2, type: 3}

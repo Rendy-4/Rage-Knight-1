@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4098743940574717961
+--- !u!1001 &5831944312626920391
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -90,12 +90,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3480569390458297434, guid: 63f06fadcd83c074691c2ab53004c56f, type: 3}
       propertyPath: m_Name
-      value: Item_Mushroom Variant
+      value: Item_Wood Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8886305846819497517, guid: 63f06fadcd83c074691c2ab53004c56f, type: 3}
       propertyPath: itemData
       value: 
-      objectReference: {fileID: 11400000, guid: d7a380f4226d9444e854ce465deeee5f, type: 2}
+      objectReference: {fileID: 11400000, guid: 6ce363fa56ff2e5438bef707680b00b2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

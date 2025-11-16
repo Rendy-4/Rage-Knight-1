@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,8 +19,23 @@ public class GameData
         inventoryData = new InventorySaveData(); 
     }
 }
-[System.Serializable]
+
+[Serializable]
 public class InventorySaveData
 {
-    public List<string> savedItemIDs = new List<string>();
+    public List<SavedSlotData> savedSlots = new List<SavedSlotData>();
+}
+[Serializable]
+public class SavedSlotData
+{
+    public int slotIndex;
+    public string itemID;
+    public int amount;
+
+    public SavedSlotData(int index, string id, int amt)
+    {
+        slotIndex = index;
+        itemID = id;
+        amount = amt;
+    }
 }

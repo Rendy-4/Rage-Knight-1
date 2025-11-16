@@ -1,12 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using TMPro;
 public class MenuManager : MonoBehaviour
 {
     public TMP_Text panelName;
-    public void loadScene(string sceneName)
+    [Header("Menu Buttons")]
+    [SerializeField] private Button newGameButton;
+    [SerializeField] private Button loadGameButton;
+    public void OnNewGameClicked()
     {
-        SceneManager.LoadScene(sceneName);
+        DataPresistenceManager.instance.NewGame();
+        SceneManager.LoadSceneAsync("In Game2");
+    }
+    public void OnLoadGameClicked()
+    {
+        SceneManager.LoadSceneAsync("In Game2");
     }
 
     public void exitGame()

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InventorySaveSystem : MonoBehaviour, IDataPresistence
@@ -13,7 +14,6 @@ public class InventorySaveSystem : MonoBehaviour, IDataPresistence
     {
         if (data.inventoryData.savedSlots.Count == 0)
         {
-            Debug.Log("Inventory kosong / belum pernah save.");
             return;
         }
 
@@ -23,20 +23,24 @@ public class InventorySaveSystem : MonoBehaviour, IDataPresistence
 
     public void SaveData(ref GameData data)
     {
+        if (data.inventoryData == null)
+        {
+            data.inventoryData = new InventorySaveData();
+        }
+        if (data.inventoryData.savedSlots == null)
+        {
+            data.inventoryData.savedSlots = new List<SavedSlotData>();
+        }
         data.inventoryData.savedSlots.Clear();
 
         var slots = inventory.GetAllSlots();
 
-        for (int i = 0; i < slots.Count; i++)
+        foreach (var slot in slots)
         {
-            var slot = slots[i];
-
             if (slot.currentItem != null)
             {
-                ItemUI ui = slot.currentItem.GetComponent<ItemUI>();
-                data.inventoryData.savedSlots.Add(
-                    new SavedSlotData(i, ui.itemData.itemID, ui.amount)
-                );
+                var ui = slot.currentItem.GetComponent<ItemUI>();
+                data.inventoryData.savedSlots.Add(new SavedSlotData(slot.index, ui.itemData.itemID, ui.amount));
             }
         }
     }

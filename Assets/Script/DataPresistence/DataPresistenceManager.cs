@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Linq;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DataPresistenceManager : MonoBehaviour
 {
@@ -16,16 +17,37 @@ public class DataPresistenceManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogError("Menemukan lebih dari satu DataPresistenceManager di scene!");
+            Debug.Log("Menemukan lebih dari satu DataPresistenceManager di scene!. Menghancurkan yang terbaru.");
+            Destroy(this.gameObject);
+            return;
         }
         instance = this;
-        
-    }
-    private void Start()
-    {
+        DontDestroyOnLoad(this.gameObject);
+
         this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName, useEncryption);
+    }
+
+    public void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
+    }
+    public void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneUnloaded -= OnSceneUnloaded;
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("Scene dimuat: " + scene.name);
         this.dataPresistenceObjects = FindAllDataPresistenceObjects();
         LoadGame();
+    }
+    public void OnSceneUnloaded(Scene scene)
+    {
+        Debug.Log("Scene dimatikan: " + scene.name);
+        SaveGame();
     }
 
     public void NewGame()
@@ -37,9 +59,15 @@ public class DataPresistenceManager : MonoBehaviour
         this.gameData = dataHandler.Load();
         if (this.gameData == null)
         {
-            Debug.LogWarning("Tidak ada data game yang ditemukan. Memulai game baru...");
+            Debug.Log("Tidak ada data game yang ditemukan. Memulai game baru...");
             NewGame();
         }
+
+        if (gameData.inventoryData == null)
+            gameData.inventoryData = new InventorySaveData();
+
+        if (gameData.inventoryData.savedSlots == null)
+            gameData.inventoryData.savedSlots = new List<SavedSlotData>();
 
         foreach (IDataPresistence dataPresistenceObj in dataPresistenceObjects)
         {

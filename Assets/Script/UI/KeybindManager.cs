@@ -63,7 +63,7 @@ public class KeybindManager : MonoBehaviour, IDataPresistence
     public KeyCode GetKey(string action)
     {
         if (!Keybinds.ContainsKey(action))
-            LoadDefaultKeysIfEmpty();
+            Keybinds[action] = KeyCode.None;
 
         return Keybinds[action];
     }
@@ -73,10 +73,33 @@ public class KeybindManager : MonoBehaviour, IDataPresistence
     {
         // Kalau key digunakan oleh action lain → return true
         if (kvp.Key != currentAction && kvp.Value == key)
-            return true;
+        return true;
     }
 
     return false;
 }
+
+public void RefreshAllKeybindButtons()
+{
+    KeybindButton[] allButtons = 
+    FindObjectsByType<KeybindButton>(FindObjectsSortMode.None);
+
+
+    foreach (var btn in allButtons)
+    {
+        btn.RefreshText();
+    }
+}
+public void ResetToDefault()
+{
+    Keybinds.Clear();
+    LoadDefaultKeysIfEmpty();
+
+    DataPresistenceManager.instance.SaveGame();
+    RefreshAllKeybindButtons();
+}
+
+
+
 
 }

@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using System;
+
 
 public class KeybindButton : MonoBehaviour
 {
@@ -54,5 +56,10 @@ public class KeybindButton : MonoBehaviour
                 return key;
         }
         return KeyCode.None;
+    }
+
+    internal void RefreshText()
+    {
+        keytext.text = KeybindManager.Instance.GetKey(actionName).ToString();
     }
 }

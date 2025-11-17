@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour, IDataPresistence
 {
@@ -14,10 +15,17 @@ public class PlayerMovement : MonoBehaviour, IDataPresistence
 
     void Update()
     {
-        if (Input.GetButtonDown("Attacking"))
-        {
-            player_combat.Attack();
-        }
+        
+            if (Input.GetButtonDown("Attacking"))
+            {
+                if (EventSystem.current.IsPointerOverGameObject())
+                {
+                    Debug.Log("Clicked on UI");
+                    return;
+                }
+                 player_combat.Attack();
+            }
+            
     }
 
     // Update is called once per frame

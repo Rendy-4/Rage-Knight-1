@@ -410,7 +410,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -28.8, y: 0}
-  m_SizeDelta: {x: 80, y: 80}
+  m_SizeDelta: {x: 155, y: 80}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &86928825
 MonoBehaviour:
@@ -455,7 +455,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86928826}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 86928828}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &86928826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,7 +520,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionName: Attack
   keytext: {fileID: 227159917}
-  popup: {fileID: 1790956418}
 --- !u!1 &97510404
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,14 +695,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1960215071}
   - {fileID: 1540958694}
+  - {fileID: 1960215071}
   m_Father: {fileID: 1120392782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 960, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116702507
 MonoBehaviour:
@@ -1229,7 +1240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -16.570007}
+  m_AnchoredPosition: {x: 0, y: -16.570068}
   m_SizeDelta: {x: 0, y: -33.140034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207286109
@@ -1363,14 +1374,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 803489650}
   - {fileID: 1877147362}
+  - {fileID: 803489650}
   m_Father: {fileID: 1120392782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 336.70004, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &215661139
 MonoBehaviour:
@@ -1872,7 +1883,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 256966533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 256966535}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &256966533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1925,7 +1948,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionName: Sprint
   keytext: {fileID: 2030648618}
-  popup: {fileID: 1790956418}
 --- !u!1 &261229610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,10 +1981,10 @@ RectTransform:
   - {fileID: 1931400416}
   m_Father: {fileID: 1396202319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 735, y: -106.638}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261229612
 MonoBehaviour:
@@ -2104,10 +2126,10 @@ RectTransform:
   - {fileID: 1856575094}
   m_Father: {fileID: 2054125173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1583.3, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304140373
 MonoBehaviour:
@@ -2777,10 +2799,10 @@ RectTransform:
   - {fileID: 1323042532}
   m_Father: {fileID: 2054125173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 336.70004, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650310834
 MonoBehaviour:
@@ -2850,14 +2872,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 186945681}
   - {fileID: 818698026}
+  - {fileID: 186945681}
   m_Father: {fileID: 1120392782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1583.3, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651854158
 MonoBehaviour:
@@ -2930,10 +2952,10 @@ RectTransform:
   - {fileID: 1089704119}
   m_Father: {fileID: 1396202319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1185, y: -106.638}
+  m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676223352
 MonoBehaviour:
@@ -3427,6 +3449,7 @@ GameObject:
   - component: {fileID: 818698029}
   - component: {fileID: 818698028}
   - component: {fileID: 818698027}
+  - component: {fileID: 818698030}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3497,7 +3520,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 818698028}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 818698030}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &818698028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3536,6 +3571,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818698025}
   m_CullTransparentMesh: 1
+--- !u!114 &818698030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818698025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 092c5ec64ae1e574d9e9fdad4205f3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Skill3
+  keytext: {fileID: 2083157033}
 --- !u!1 &899031012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3758,7 +3807,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 939010796}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 939010798}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &939010796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,7 +3872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionName: Interact
   keytext: {fileID: 984231172}
-  popup: {fileID: 1790956418}
 --- !u!1 &984231170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,10 +4315,10 @@ RectTransform:
   - {fileID: 694962852}
   m_Father: {fileID: 2054125173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 960, y: -215.2}
+  m_SizeDelta: {x: 573.3, y: 230.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029354903
 MonoBehaviour:
@@ -6219,6 +6279,7 @@ GameObject:
   - component: {fileID: 1540958697}
   - component: {fileID: 1540958696}
   - component: {fileID: 1540958695}
+  - component: {fileID: 1540958698}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6289,7 +6350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540958696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1540958698}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1540958696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6328,6 +6401,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540958693}
   m_CullTransparentMesh: 1
+--- !u!114 &1540958698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540958693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 092c5ec64ae1e574d9e9fdad4205f3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Skill2
+  keytext: {fileID: 159269630}
 --- !u!1 &1566332852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,7 +6432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1566332853
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6358,11 +6445,11 @@ RectTransform:
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2008802300}
   - {fileID: 207286108}
   - {fileID: 2054125173}
   - {fileID: 1120392782}
   - {fileID: 1396202319}
+  - {fileID: 2008802300}
   m_Father: {fileID: 996708621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8168,6 +8255,7 @@ GameObject:
   - component: {fileID: 1877147365}
   - component: {fileID: 1877147364}
   - component: {fileID: 1877147363}
+  - component: {fileID: 1877147366}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -8238,7 +8326,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1877147364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1877147366}
+        m_TargetAssemblyTypeName: KeybindButton, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1877147364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8277,6 +8377,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877147361}
   m_CullTransparentMesh: 1
+--- !u!114 &1877147366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877147361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 092c5ec64ae1e574d9e9fdad4205f3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Skill1
+  keytext: {fileID: 2103862955}
 --- !u!1 &1900350594
 GameObject:
   m_ObjectHideFlags: 0
@@ -8822,7 +8936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2008802301

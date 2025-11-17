@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: 6010e2dbd20734d45bca1ff053381762
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3111523842944573214
+    second: 0_play, settings, credits_REVISI.2_0
+  - first:
+      213: 7692906457832796772
+    second: 0_play, settings, credits_REVISI.2_1
+  - first:
+      213: -2275221424211432429
+    second: 0_play, settings, credits_REVISI.2_2
+  - first:
+      213: -2942569762345199879
+    second: 0_play, settings, credits_REVISI.2_3
+  - first:
+      213: 2781130340407264201
+    second: 0_play, settings, credits_REVISI.2_4
+  - first:
+      213: 2381292309918575429
+    second: 0_play, settings, credits_REVISI.2_5
+  - first:
+      213: -790298357663667730
+    second: 0_play, settings, credits_REVISI.2_6
+  - first:
+      213: -7483170176038347778
+    second: 0_play, settings, credits_REVISI.2_7
+  - first:
+      213: -7929983977400622175
+    second: 0_play, settings, credits_REVISI.2_8
+  - first:
+      213: -4354666039561218187
+    second: 0_play, settings, credits_REVISI.2_9
+  - first:
+      213: 2906748954218053353
+    second: 0_play, settings, credits_REVISI.2_10
+  - first:
+      213: 1994245153094931085
+    second: 0_play, settings, credits_REVISI.2_11
+  - first:
+      213: -6098111813243316726
+    second: 0_play, settings, credits_REVISI.2_12
+  - first:
+      213: 6732296337655385661
+    second: 0_play, settings, credits_REVISI.2_13
+  - first:
+      213: -7776949406483855578
+    second: 0_play, settings, credits_REVISI.2_14
+  - first:
+      213: -4759923484241054257
+    second: 0_play, settings, credits_REVISI.2_15
+  - first:
+      213: 5386029363695585508
+    second: 0_play, settings, credits_REVISI.2_16
+  - first:
+      213: -2089765418761937242
+    second: 0_play, settings, credits_REVISI.2_17
+  - first:
+      213: -4313334716100526909
+    second: 0_play, settings, credits_REVISI.2_18
+  - first:
+      213: 3860349133461862703
+    second: 0_play, settings, credits_REVISI.2_19
+  - first:
+      213: -4207432346549554607
+    second: 0_play, settings, credits_REVISI.2_20
+  - first:
+      213: -4359147477313667291
+    second: 0_play, settings, credits_REVISI.2_21
+  - first:
+      213: -2693205577492595565
+    second: 0_play, settings, credits_REVISI.2_22
+  - first:
+      213: 5856507386160281176
+    second: 0_play, settings, credits_REVISI.2_23
+  - first:
+      213: 4941940762256380490
+    second: 0_play, settings, credits_REVISI.2_24
+  - first:
+      213: 4976262194528868676
+    second: 0_play, settings, credits_REVISI.2_25
+  - first:
+      213: -6748346222837238671
+    second: 0_play, settings, credits_REVISI.2_26
+  - first:
+      213: -8244400217672759105
+    second: 0_play, settings, credits_REVISI.2_27
+  - first:
+      213: 6274037958701128177
+    second: 0_play, settings, credits_REVISI.2_28
+  - first:
+      213: -7710507664019242044
+    second: 0_play, settings, credits_REVISI.2_29
+  - first:
+      213: 7971731599266155177
+    second: 0_play, settings, credits_REVISI.2_30
+  - first:
+      213: -7774600653492620222
+    second: 0_play, settings, credits_REVISI.2_31
+  - first:
+      213: 3393248756628326895
+    second: 0_play, settings, credits_REVISI.2_32
+  - first:
+      213: 2598984874482420639
+    second: 0_play, settings, credits_REVISI.2_33
+  - first:
+      213: 3382899066992907667
+    second: 0_play, settings, credits_REVISI.2_34
+  - first:
+      213: 4138330653467714786
+    second: 0_play, settings, credits_REVISI.2_35
+  - first:
+      213: 3040946516199430623
+    second: 0_play, settings, credits_REVISI.2_36
+  - first:
+      213: 5776442113515089840
+    second: 0_play, settings, credits_REVISI.2_37
+  - first:
+      213: -2130312953309727661
+    second: 0_play, settings, credits_REVISI.2_38
+  - first:
+      213: -7506693009886279813
+    second: 0_play, settings, credits_REVISI.2_39
+  - first:
+      213: 8372680810912698252
+    second: 0_play, settings, credits_REVISI.2_40
+  - first:
+      213: -8030579969043689105
+    second: 0_play, settings, credits_REVISI.2_41
+  - first:
+      213: -5633502795244252335
+    second: 0_play, settings, credits_REVISI.2_42
+  - first:
+      213: -1860352532644294888
+    second: 0_play, settings, credits_REVISI.2_43
+  - first:
+      213: -5951585665680300090
+    second: 0_play, settings, credits_REVISI.2_44
+  - first:
+      213: 9094556047003202938
+    second: 0_play, settings, credits_REVISI.2_45
+  - first:
+      213: 7378199280619164527
+    second: 0_play, settings, credits_REVISI.2_46
+  - first:
+      213: 7705749347622959560
+    second: 0_play, settings, credits_REVISI.2_47
+  - first:
+      213: 4813375996405181919
+    second: 0_play, settings, credits_REVISI.2_48
+  - first:
+      213: -3207707642676801922
+    second: 0_play, settings, credits_REVISI.2_49
+  - first:
+      213: 3443092334691307443
+    second: 0_play, settings, credits_REVISI.2_50
+  - first:
+      213: 5223684787910943646
+    second: 0_play, settings, credits_REVISI.2_51
+  - first:
+      213: -6342222858338505774
+    second: 0_play, settings, credits_REVISI.2_52
+  - first:
+      213: 6496506986706451604
+    second: 0_play, settings, credits_REVISI.2_53
+  - first:
+      213: -9046521223481313954
+    second: 0_play, settings, credits_REVISI.2_54
+  - first:
+      213: 6707740122445763589
+    second: 0_play, settings, credits_REVISI.2_55
+  - first:
+      213: 3470567464033748153
+    second: 0_play, settings, credits_REVISI.2_56
+  - first:
+      213: 9068198144016085151
+    second: 0_play, settings, credits_REVISI.2_57
+  - first:
+      213: -2332097979599557004
+    second: 0_play, settings, credits_REVISI.2_58
+  - first:
+      213: 3038894013130251383
+    second: 0_play, settings, credits_REVISI.2_59
+  - first:
+      213: -8195790916942775284
+    second: 0_play, settings, credits_REVISI.2_60
+  - first:
+      213: 8994492404060860677
+    second: 0_play, settings, credits_REVISI.2_61
+  - first:
+      213: 5129292695376857429
+    second: 0_play, settings, credits_REVISI.2_62
+  - first:
+      213: -4189658093229127689
+    second: 0_play, settings, credits_REVISI.2_63
+  - first:
+      213: -2620104202483666281
+    second: 0_play, settings, credits_REVISI.2_64
+  - first:
+      213: 2136629451408001002
+    second: 0_play, settings, credits_REVISI.2_65
+  - first:
+      213: -3707825952576086835
+    second: 0_play, settings, credits_REVISI.2_66
+  - first:
+      213: -3451350708718769825
+    second: 0_play, settings, credits_REVISI.2_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f9ed8137a5e2b20800000000000000
+      internalID: 3111523842944573214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462be652aa1b2ca60800000000000000
+      internalID: 7692906457832796772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ce4885b2acc60e0800000000000000
+      internalID: -2275221424211432429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6db9c3464e927d0800000000000000
+      internalID: -2942569762345199879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3490e3f4f889620800000000000000
+      internalID: 2781130340407264201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54be01f3dbc0c0120800000000000000
+      internalID: 2381292309918575429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9e1e4b4db4805f0800000000000000
+      internalID: -790298357663667730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbdf675f50762890800000000000000
+      internalID: -7483170176038347778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a32f70669903f190800000000000000
+      internalID: -7929983977400622175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_play, settings, credits_REVISI.2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 668
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5771f7c1f4e1193c0800000000000000
+      internalID: -4354666039561218187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c9242ab7f5095240b5d758e9161cd16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0_play, settings, credits_REVISI.2_0: 3111523842944573214
+      0_play, settings, credits_REVISI.2_1: 7692906457832796772
+      0_play, settings, credits_REVISI.2_2: -2275221424211432429
+      0_play, settings, credits_REVISI.2_3: -2942569762345199879
+      0_play, settings, credits_REVISI.2_4: 2781130340407264201
+      0_play, settings, credits_REVISI.2_5: 2381292309918575429
+      0_play, settings, credits_REVISI.2_6: -790298357663667730
+      0_play, settings, credits_REVISI.2_7: -7483170176038347778
+      0_play, settings, credits_REVISI.2_8: -7929983977400622175
+      0_play, settings, credits_REVISI.2_9: -4354666039561218187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

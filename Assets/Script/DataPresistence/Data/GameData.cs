@@ -9,6 +9,7 @@ public class GameData
     public Vector3 playerPosition;
     public SerializableDictionary<string, bool> EnemyDefeated;
     public InventorySaveData inventoryData; 
+    public SerializableDictionary<String, int> keybinds;
 
     public GameData()
     {
@@ -17,6 +18,17 @@ public class GameData
         EnemyDefeated = new SerializableDictionary<string, bool>();
 
         inventoryData = new InventorySaveData(); 
+
+        keybinds = new SerializableDictionary<string, int>()
+        {
+            { "Attack", (int)KeyCode.Mouse0 },
+            { "Sprint", (int)KeyCode.LeftShift },
+            { "Interact", (int)KeyCode.F },
+
+            { "Skill1", (int)KeyCode.Alpha1 },
+            { "Skill2", (int)KeyCode.Alpha2 },
+            { "Skill3", (int)KeyCode.Alpha3 }
+        };
     }
 }
 

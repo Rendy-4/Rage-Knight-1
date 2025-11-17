@@ -5,11 +5,6 @@ public class InventorySaveSystem : MonoBehaviour, IDataPresistence
 {
     public InventoryController inventory;
 
-    private void Awake()
-    {
-        inventory = GetComponent<InventoryController>();
-    }
-
     public void LoadData(GameData data)
     {
         if (data.inventoryData.savedSlots.Count == 0)
@@ -39,8 +34,13 @@ public class InventorySaveSystem : MonoBehaviour, IDataPresistence
         {
             if (slot.currentItem != null)
             {
-                var ui = slot.currentItem.GetComponent<ItemUI>();
-                data.inventoryData.savedSlots.Add(new SavedSlotData(slot.index, ui.itemData.itemID, ui.amount));
+                ItemUI ui = slot.currentItem.GetComponent<ItemUI>();
+                if (ui != null && ui.itemData != null)
+                {
+                    data.inventoryData.savedSlots.Add(
+                        new SavedSlotData(slot.index, ui.itemData.itemID, ui.amount));
+                    continue;
+                }
             }
         }
     }

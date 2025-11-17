@@ -1857,8 +1857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelName: {fileID: 1679459263}
-  newGameButton: {fileID: 0}
-  loadGameButton: {fileID: 0}
+  newGameButton: {fileID: 97510406}
+  loadGameButton: {fileID: 1399912238}
 --- !u!114 &996708623
 MonoBehaviour:
   m_ObjectHideFlags: 0

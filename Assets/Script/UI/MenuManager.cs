@@ -8,6 +8,13 @@ public class MenuManager : MonoBehaviour
     [Header("Menu Buttons")]
     [SerializeField] private Button newGameButton;
     [SerializeField] private Button loadGameButton;
+
+    private void Start() {
+        if(!DataPresistenceManager.instance.HasGameData())
+        {
+            loadGameButton.interactable = false;
+        }
+    }
     public void OnNewGameClicked()
     {
         DataPresistenceManager.instance.NewGame();

@@ -395081,6 +395081,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1378038162}
     m_Modifications:
+    - target: {fileID: 886083406560950964, guid: cc0f3051e26331e45bb8dae3393950d0, type: 3}
+      propertyPath: initializeDataIfNull
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2872305503867380912, guid: cc0f3051e26331e45bb8dae3393950d0, type: 3}
       propertyPath: m_Name
       value: DataPresistenceManager
@@ -395134,6 +395138,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1378038162}
   - {fileID: 1641886061}
   - {fileID: 1319673027}
   - {fileID: 1950591833}
@@ -395142,7 +395147,6 @@ SceneRoots:
   - {fileID: 5171029142275436305}
   - {fileID: 1109790032}
   - {fileID: 6272316576030071305}
-  - {fileID: 1378038162}
   - {fileID: 2043774838}
   - {fileID: 1477986855}
   - {fileID: 236345505}

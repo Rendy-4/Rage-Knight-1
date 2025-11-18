@@ -21,7 +21,7 @@ public class KeybindManager : MonoBehaviour, IDataPresistence
     {
         if (Keybinds.Count == 0)
         {
-            Keybinds["Attack"] = KeyCode.Mouse0;
+            Keybinds["Attacking"] = KeyCode.Mouse0;
             Keybinds["Sprint"] = KeyCode.LeftShift;
             Keybinds["Interact"] = KeyCode.F;
             Keybinds["Skill1"] = KeyCode.Alpha1;

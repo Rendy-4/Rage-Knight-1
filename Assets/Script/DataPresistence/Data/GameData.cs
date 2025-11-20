@@ -10,6 +10,11 @@ public class GameData
     public SerializableDictionary<string, bool> EnemyDefeated;
     public InventorySaveData inventoryData; 
     public SerializableDictionary<String, int> keybinds;
+    public float musicVolume;
+    public float sfxVolume;
+    public int resolutionIndex;
+    public bool isFullscreen;
+
 
     public GameData()
     {
@@ -18,6 +23,11 @@ public class GameData
         EnemyDefeated = new SerializableDictionary<string, bool>();
 
         inventoryData = new InventorySaveData(); 
+
+        musicVolume = 1f;
+        sfxVolume = 1f;
+        resolutionIndex = 0;
+        isFullscreen = true;
 
         keybinds = new SerializableDictionary<string, int>()
         {
@@ -29,6 +39,7 @@ public class GameData
             { "Skill2", (int)KeyCode.Alpha2 },
             { "Skill3", (int)KeyCode.Alpha3 }
         };
+        
     }
 }
 

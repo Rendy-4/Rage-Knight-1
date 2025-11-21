@@ -15,11 +15,12 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        GetComponent<EnemyMovement>().isDead = true;
+       
         currentHealth -= damage;
 
         if (currentHealth <= 0)
         {
+             GetComponent<EnemyMovement>().isDead = true;
             
             LootBag lootBag = GetComponent<LootBag>();
             if (lootBag != null)

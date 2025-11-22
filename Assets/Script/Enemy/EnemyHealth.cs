@@ -5,6 +5,8 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
+    public float expreward = 20;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -29,6 +31,12 @@ public class EnemyHealth : MonoBehaviour
                 lootBag.InstantiateLoot(transform.position);
             }
 
+
+            if(PlayerExperience.Instance != null)
+            {
+                PlayerExperience.Instance.AddExp(expreward);
+            }
+            
             Destroy(gameObject);
         }
     }

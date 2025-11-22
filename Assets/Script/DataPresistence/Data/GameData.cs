@@ -15,6 +15,10 @@ public class GameData
     public int resolutionIndex;
     public bool isFullscreen;
 
+    public int playerLevel;
+    public float playerExp;
+    public float ExpToNextLevel;
+
 
     public GameData()
     {
@@ -28,6 +32,8 @@ public class GameData
         sfxVolume = 1f;
         resolutionIndex = 0;
         isFullscreen = true;
+
+        
 
         keybinds = new SerializableDictionary<string, int>()
         {

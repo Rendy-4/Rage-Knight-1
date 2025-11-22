@@ -14,9 +14,6 @@ public class GameData
     public float sfxVolume;
     public int resolutionIndex;
     public bool isFullscreen;
-    public float playerExp;
-    public int playerLevel;
-    public float expToNextLevel;
 
 
     public GameData()

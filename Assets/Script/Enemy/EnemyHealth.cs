@@ -5,9 +5,6 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
-    [Header("Exp Reward")]
-    public int expReward = 20;
-
     void Start()
     {
         currentHealth = maxHealth;
@@ -20,7 +17,11 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-             GetComponent<EnemyMovement>().isDead = true;
+             EnemyMovement enemyMovement = GetComponent<EnemyMovement>();
+            if (enemyMovement != null)
+            {
+                enemyMovement.isDead = true;
+            }
             
             LootBag lootBag = GetComponent<LootBag>();
             if (lootBag != null)
@@ -28,8 +29,6 @@ public class EnemyHealth : MonoBehaviour
                 lootBag.InstantiateLoot(transform.position);
             }
 
-            GameObject player = GameObject.FindWithTag("Player");
-            player.GetComponent<PlayerExperience>().AddExp(expReward);
             Destroy(gameObject);
         }
     }

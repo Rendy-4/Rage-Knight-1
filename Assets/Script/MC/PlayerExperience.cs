@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+
 using UnityEngine;
 
 public class PlayerExperience : MonoBehaviour, IDataPresistence
@@ -10,6 +10,7 @@ public class PlayerExperience : MonoBehaviour, IDataPresistence
     public float expToNextLevel = 100; // nilai awal
     public float growthMultiplier = 1.5f; // scaling EXP setiap level
     public static PlayerExperience Instance;
+    private PlayerStats stats;
 
     private void Awake()
     {
@@ -41,11 +42,18 @@ public class PlayerExperience : MonoBehaviour, IDataPresistence
 
     void LevelUp()
     {
+        if (level >= 25)
+        {
+            currentExp = 0;
+            expToNextLevel = 0;
+            Debug.Log("MAX LEVEL REACHED");
+            return;
+        }
         level++;
-        expToNextLevel *= growthMultiplier;   
-        Debug.Log("LEVEL UP! Level sekarang: " + level);
+        expToNextLevel *= growthMultiplier;
 
-        
+        stats?.OnLevelUp();   
+        Debug.Log("LEVEL UP! Level sekarang: " + level);
     }
     public void LoadData(GameData data)
     {

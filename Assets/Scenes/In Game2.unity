@@ -363038,6 +363038,7 @@ GameObject:
   - component: {fileID: 1641886068}
   - component: {fileID: 1641886069}
   - component: {fileID: 1641886070}
+  - component: {fileID: 1641886071}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -363235,7 +363236,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   attackRange: 0.7
-  attackDamage: 10
   anim: {fileID: 1641886062}
   playerMovement: {fileID: 1641886057}
   DamagePopup: {fileID: 5794157932707906224, guid: 2a2345275d497fd43a93688e067f39d6, type: 3}
@@ -363339,6 +363339,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Coins: 0
+--- !u!114 &1641886071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641886056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d017919168dd942938680386717b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseMaxHP: 100
+  BaseDamage: 10
+  CurrentMaxHP: 0
+  CurrentDamage: 0
+  MaxHPMultiplier: 1.2
+  DamageMultiplier: 1.1
 --- !u!1 &1699825061
 GameObject:
   m_ObjectHideFlags: 0

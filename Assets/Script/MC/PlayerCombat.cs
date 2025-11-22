@@ -8,14 +8,19 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
     public float attackRange = 0.5f;
-    public int attackDamage = 10;
 
     public Animator anim;
     public PlayerMovement playerMovement;
     public Transform DamagePopup;
+    private PlayerStats stats;
 
     public float cooldown = 2f;
-    private float timer;   
+    private float timer;
+
+    void Start()
+    {
+        stats = GetComponent<PlayerStats>();
+    }
     void Update()
     {
         if(timer > 0f)
@@ -40,6 +45,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void DealDamage()
     {
+        int attackDamage = stats.CurrentDamage;
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         

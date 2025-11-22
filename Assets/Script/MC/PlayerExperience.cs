@@ -42,8 +42,10 @@ public class PlayerExperience : MonoBehaviour, IDataPresistence
     void LevelUp()
     {
         level++;
-        expToNextLevel *= growthMultiplier;   // contoh scaling 1.5x
+        expToNextLevel *= growthMultiplier;   
         Debug.Log("LEVEL UP! Level sekarang: " + level);
+
+        
     }
     public void LoadData(GameData data)
     {

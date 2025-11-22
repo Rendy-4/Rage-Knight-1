@@ -18,6 +18,7 @@ public class GameData
     public int playerLevel;
     public float playerExp;
     public float ExpToNextLevel;
+    public int PlayerCoins;
 
 
     public GameData()

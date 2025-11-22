@@ -15,3 +15,4 @@ MonoBehaviour:
   lootSprite: {fileID: -1299727067576910708, guid: 4d9d7ca1611dfc74da52cc1be3127fff, type: 3}
   lootName: Coin
   dropChange: 100
+  lootType: 3

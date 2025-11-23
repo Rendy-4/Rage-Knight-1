@@ -9,6 +9,7 @@ public class GameData
     public Vector3 playerPosition;
     public SerializableDictionary<string, bool> EnemyDefeated;
     public InventorySaveData inventoryData; 
+    public SerializableDictionary<string, int> backendInventory;
     public SerializableDictionary<String, int> keybinds;
     public float musicVolume;
     public float sfxVolume;
@@ -46,7 +47,8 @@ public class GameData
             { "Skill2", (int)KeyCode.Alpha2 },
             { "Skill3", (int)KeyCode.Alpha3 }
         };
-        
+
+        backendInventory = new SerializableDictionary<string, int>();
     }
 }
 

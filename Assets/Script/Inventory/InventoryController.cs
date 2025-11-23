@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventoryController : MonoBehaviour
@@ -7,9 +8,13 @@ public class InventoryController : MonoBehaviour
     public GameObject SlotPrefabs;
     public int SlotCount;
     public GameObject[] ItemPrefabs;
-
+    public static InventoryController Instance;
     private List<Slot> slots = new List<Slot>();
 
+    void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         GenerateSlots();
@@ -85,35 +90,50 @@ public class InventoryController : MonoBehaviour
     {
         return slots;
     }
-    public void AddItem(ItemData data, int amount = 1)
+    public void AddItem(ItemData itemData, int amount = 1)
+{
+    // 1. CARI ITEM YG SUDAH ADA -> TAMBAHKAN JUMLAH
+    foreach (var slot in slots)
     {
-        foreach (var slot in slots)
+        if (slot.currentItem != null)
         {
-            if (slot.currentItem != null)
+            var ui = slot.currentItem.GetComponent<ItemUI>();
+            if (ui.itemData == itemData)
             {
-                var ui = slot.currentItem.GetComponent<ItemUI>();
-                if (ui.itemData == data)
-                {
-                    ui.amount += amount;
-                    ui.RefreshAmountText();
-                    return;
-                }
+                ui.amount += amount;
+                ui.RefreshAmountText();
+                return;
             }
         }
-        foreach (var slot in slots)
+    }
+
+    // 2. CARI SLOT KOSONG -> SPAWN ITEM BARU
+    foreach (var slot in slots)
+    {
+        if (slot.currentItem == null)
         {
-            if (slot.currentItem == null)
+            GameObject prefab = FindPrefabForItem(itemData);
+            if (prefab == null)
             {
-                GameObject prefab = FindPrefabForItem(data);
-                GameObject item = Instantiate(prefab, slot.transform);
-
-                ItemUI ui = item.GetComponent<ItemUI>();
-                ui.Setup(data, amount);
-
-                slot.currentItem = item;
-                return; 
+                Debug.LogError("Prefab untuk item: " + itemData.itemID + " tidak ditemukan di ItemPrefabs!");
+                return;
             }
+
+            GameObject item = Instantiate(prefab, slot.transform);
+
+            ItemUI ui = item.GetComponent<ItemUI>();
+            ui.Setup(itemData, amount);  // ← FIXED
+
+            slot.currentItem = item;
+            return;
         }
-        Debug.Log("Inventory Full!");
+    }
+
+    Debug.Log("Inventory Full!");
+}
+
+    public void RefreshInventoryUI()
+    {
+        var allitems = InventoryDataManager.Instance.GetAllItems();
     }
 }

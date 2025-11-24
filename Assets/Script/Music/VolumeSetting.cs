@@ -22,13 +22,13 @@ public class VolumeSetting : MonoBehaviour, IDataPresistence
         SFXSlider.onValueChanged.AddListener(OnSFXSliderChanged);
     }
 
-    void OnMusicSliderChanged(float value)
+    public void OnMusicSliderChanged(float value)
     {
         musicVolume = value;
         ApplyMusicVolume(value);
     }
 
-    void OnSFXSliderChanged(float value)
+    public void OnSFXSliderChanged(float value)
     {
         sfxVolume = value;
         ApplySFXVolume(value);
